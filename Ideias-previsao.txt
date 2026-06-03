@@ -1,0 +1,10 @@
+2. O que podemos criar juntos em Python
+
+Podemos montar algo inspirado em psico-história usando dados reais ou simulados.
+Por exemplo:
+
+🔮 Simulação de Sociedade - Criar “pessoas” com emoções, crenças e decisões, e ver como a sociedade evolui. (mesa, numpy, matplotlib)
+
+📊 Previsor de Tendências - Coletar dados (Google Trends, Twitter, etc.) e prever se algo vai “subir” ou “cair”. (pandas, sklearn, prophet)
+
+💰 Modelo Econômico Simplificado - Simular uma economia (produção, consumo, desigualdade) e prever crises. (mesa, matplotlib)

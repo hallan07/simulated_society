@@ -1,0 +1,22 @@
+Sociedade (modelo principal)
+│
+├── Agentes
+│    ├── Emoções (felicidade, raiva, medo, esperança)
+│    ├── Crenças (ex: fé na ciência, fé na religião, fé no líder, etc.)
+│    ├── Opinião (um valor numérico ou vetor)
+│    ├── Influência (o quanto afeta os outros)
+│    ├── Abertura (o quanto muda de opinião)
+│
+├── Ambiente
+│    ├── Regras globais (eventos aleatórios, crises, progresso tecnológico, etc.)
+│    ├── Tempo (iterações)
+│
+├── Interações
+│    ├── Cada agente fala com outro
+│    ├── Um influencia o outro (segundo algum modelo)
+│
+└── Coletor de dados
+     ├── Média das emoções
+     ├── Distribuição de crenças
+     ├── Polarização social
+     └── Evolução ao longo do tempo (com matplotlib)
