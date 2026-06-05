@@ -1,0 +1,44 @@
+1º Objetivo
+Mundo inicial 100 agentes.
+
+#Cada um:
+fome,
+energia,
+agressividade,
+cooperação,
+recursos.
+
+#Regras:
+procurar comida,
+trocar,
+roubar,
+morrer,
+reproduzir
+---------------------------------
+Road Map
+#1
+agentes
+mapa
+recursos
+sobrevivência
+#2
+personalidade
+memória
+cooperação
+reputação
+#3
+economia
+classes sociais
+mercado
+#4
+cultura
+religião
+ideologias
+#5
+política
+estados
+guerras
+#6
+aprendizado por IA
+adaptação
+evolução cultural

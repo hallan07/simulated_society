@@ -1,4 +1,5 @@
 Portugues
+
 Simulação de Sociedade Emergente
 
 Este projeto é uma simulação computacional de sociedades compostas por múltiplos agentes autônomos, inspirada em conceitos de psicologia, sociologia, antropologia, economia e ciência de sistemas complexos.

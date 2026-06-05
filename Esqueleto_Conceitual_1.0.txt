@@ -1,22 +1,106 @@
-Sociedade (modelo principal)
-│
-├── Agentes
-│    ├── Emoções (felicidade, raiva, medo, esperança)
-│    ├── Crenças (ex: fé na ciência, fé na religião, fé no líder, etc.)
-│    ├── Opinião (um valor numérico ou vetor)
-│    ├── Influência (o quanto afeta os outros)
-│    ├── Abertura (o quanto muda de opinião)
-│
-├── Ambiente
-│    ├── Regras globais (eventos aleatórios, crises, progresso tecnológico, etc.)
-│    ├── Tempo (iterações)
-│
-├── Interações
-│    ├── Cada agente fala com outro
-│    ├── Um influencia o outro (segundo algum modelo)
-│
-└── Coletor de dados
-     ├── Média das emoções
-     ├── Distribuição de crenças
-     ├── Polarização social
-     └── Evolução ao longo do tempo (com matplotlib)
+Sociedade
+
+#1 Agentes (cada agente representa uma pessoa)
+- Idade
+- Energia
+- Recursos
+- Fome
+- Personalidade
+- Inteligência
+- Cooperação
+─ Emoções (emoções primárias Ekman, emoções secundárias)
+- Medo?
+- Mal estar civilizacional?
+- Agressividade
+- Confiança
+─ Crenças (ex: fé na ciência, fé na religião, fé no líder, etc.)
+─ Opinião (em relação as ideologias, líderes)
+─ Influência (o quanto afeta os outros)
+─ Abertura (o quanto muda de opinião)
+- Status social
+- Ideologia
+- Cultura
+- Memória
+- Relações sociais
+
+Psicologia:
+Big Five Personality
+viés cognitivo
+teoria da identidade social
+conformismo
+tribalismo
+medo coletivo
+motivação
+
+Sociologia:
+estratificação social
+desigualdade
+mobilidade social
+capital social
+normas culturais
+pressão de grupo
+
+Antropologia:
+formação de tribos
+cultura
+rituais
+transmissão cultural
+religião
+símbolos
+-------------------------------
+Inspirado em:
+Psychology
+Behavioral Economics
+Evolutionary Psychology
+-------------------------------
+
+#2 Ambiente
+- Recursos
+- Geografia
+- Cidades
+- Escassez
+- Perigo
+- Tecnologia
+- Leis
+- Epidemias
+- Guerras
+─ Regras globais (eventos aleatórios, crises, progresso tecnológico, etc.)
+─ Tempo (iterações)
+─ Interações
+─ Cada agente fala com outro
+─ Um influencia o outro (segundo algum modelo)
+
+Economia:
+oferta/demanda
+inflação
+riqueza
+mercados
+escassez
+ciclos econômicos
+-------------------------------
+Anthropology
+Human Geography
+Political Science
+-------------------------------
+
+#3 Regras de interação
+Exemplo:
+
+agentes trocam recursos,
+formam grupos,
+roubam,
+cooperam,
+mentem,
+negociam,
+guerreiam,
+reproduzem,
+aprendem.
+
+(com regras simples, pode surgir padrões complexos, emergencia)
+
+
+Coletor de dados
+─ Média das emoções
+─ Distribuição de crenças
+─ Polarização social
+─ Evolução ao longo do tempo (com matplotlib)
